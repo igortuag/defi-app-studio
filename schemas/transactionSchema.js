@@ -23,5 +23,10 @@ export const transactionSchema = {
       title: 'Amount',
       type: 'number',
     },
+    {
+      name: 'timestamp',
+      title: 'Timestamp',
+      type: 'datetime',
+    },
   ],
 }
